@@ -223,8 +223,6 @@ For TimeSheetDay table-
 >PUT /timesheetday/{timesheetdayId} - Update a timesheetday.
 >DELETE /timesheetday/{timesheetdayId} - Delete a timesheetday.
 
-JSON data-
-
 
 ## Authors
 
