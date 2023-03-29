@@ -46,15 +46,13 @@ public class ProjectTableService {
         projectTableRepository.deleteById(pid);
     }
 
-
-    public void updateProject(ProjectTable projectTable, int projectId) {
-    }
-
-
     //update the project
-    public void updateBook(ProjectTable projectTable,int projectId)
-    {
+    public void updateProject(ProjectTable projectTable, int projectId) {
         projectTable.setId(projectId);
         projectTableRepository.save(projectTable);
     }
+
+
+    
+    
 }
